@@ -23,6 +23,9 @@ class ExpensesViewController: UIViewController {
 
         dateFormatter.timeStyle = .long
         dateFormatter.dateStyle = .long
+        
+        expensesTableView.dataSource = self
+        expensesTableView.delegate = self
     }
     
     

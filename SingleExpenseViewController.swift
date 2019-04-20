@@ -23,6 +23,8 @@ class SingleExpenseViewController: UIViewController {
         nameTextField.delegate = self
         amountTextField.delegate = self
         
+
+        
         nameTextField.text = existingExpense?.name
         
         if let amount = existingExpense?.amount{
